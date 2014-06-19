@@ -1,5 +1,4 @@
 .JesseP #pic {
-    position: relative;
     margin-top: 2%;
     margin-left: 18%;
     margin-right: 20%;
@@ -9,10 +8,12 @@
  .aboutMe{
     font-family: 'Times New Roman';
     color: black;
-    font-size: 27px;
+    font-size: 20px;
     margin-left:26%;
     margin-right:26%;
     border: solid;
+    padding-bottom: .5%;
+    padding-top: .5%;
 }
 
 .favLinks{
@@ -23,19 +24,24 @@
     margin-left:40%;
     margin-right:40%;
     border:dotted;
+    margin-bottom:2%;
 }
 
 #button{
 	background-color: yellow;
-	margin-left:48%;
-    margin-right:45%;
 }
 
 .quote{
 	font-family: 'Times New Roman';
-    color: black;
+	color: black;
     font-size: 20px;
     text-align: center;
     margin-left:40%;
     margin-right:40%;
     border:dotted;
+    margin-top: 2%;
+}
+
+.quote span{
+	color:red;
+}
